@@ -1,0 +1,128 @@
+/* border under navbar */
+.one-edged-shadow {
+  	-webkit-box-shadow: 0 0.5px 6px 0 #ccc;
+	     -moz-box-shadow: 0 0.5px 6px 0 #ccc;
+	          box-shadow: 0 0.5px 6px 0 #ccc;
+}
+
+/* GLOBAL styles*/
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+/* START: HERO SECTION */
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/knoxville-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: clamp(100px, 75vh, 200px) 0;
+}
+
+#hero-section h2 {
+  margin: auto;
+  padding: auto;
+  color: white;
+  font-family: 'Fira Code', monospace;
+}
+
+#hero-section h3 {
+  margin: auto;
+  padding: auto;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  opacity: 75%;
+}
+
+#profile-img {
+  margin: clamp(10px,   5vh, 100px) auto;
+  height: clamp(100px, 35vh, 200px);
+  width:  clamp(100px, 35vh, 200px);
+} 
+
+#profile-img img {
+  border: 3px solid slategray;
+  border-radius: 50%;
+}
+/* END: HERO SECTION */
+
+/* START: MISSION SECTION */
+#mission-section {
+  background-color: #272727;
+}
+
+#mission-section h3 {
+  color: #fff;
+  font-family: 'Fira Code', monospace;
+}
+
+#mission-section img {
+  padding-block-end: 25px;
+  border: transparent;
+  border-radius: 10px;
+}
+
+#mission-section p {
+  color: #fff;
+  opacity: 75%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  margin: auto;
+  width: 85%;
+}
+/* END: MISSION SECTION */
+
+/* START: SKILLS SECTION */
+#skills-section {
+  background-color: #272727;
+}
+
+#skills-section img {
+  padding: 20px;
+  height: 175px;
+  object-fit: cover;
+}
+
+#skills-section h3 {
+  color: #fff;
+  font-family: 'Fira Code', monospace;
+}
+
+#skills-section p {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  opacity: 75%;
+}
+/* END: SKILLS SECTION */
+
+/* START: INSPIRATION SECTION */
+#inspiration-section {
+  background-color: #272727;
+}
+#inspiration-section h3 {
+  font-family: 'Fira Code', monospace;
+}
+
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+/* END: INSPIRATION SECTION */
+
+/* START: CONTACT SECTION */
+#contact-section {
+  background-color: #272727;
+}
+
+#contact-section h3 {
+  font-family: 'Fira Code', monospace;
+}
+/* END: CONTACT SECTION */
